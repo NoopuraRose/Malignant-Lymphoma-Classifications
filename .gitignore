@@ -1,1 +1,5 @@
 Dataset/
+yolov8n-cls.pt/
+runs/
+Dataset_split/
+image.tif/

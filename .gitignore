@@ -1,1 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+.env
+
+# Local data and large model artifacts
 Dataset/
+Dataset_split/
+runs/
+yolov8n-cls.pt
+image.tif
+
+# Flask uploads
+static/uploads/*
+!static/uploads/.gitkeep
